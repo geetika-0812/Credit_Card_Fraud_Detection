@@ -1,11 +1,11 @@
 ﻿# Credit_Card_Fraud_Detection
 Credit Card Fraud Detection:
+A machine learning model to identify fraudulent credit card transactions is what this project attempts to create. The model is developed using a dataset of labelled transactions, where each transaction is assigned to either a fraudulent or valid category. Logistic regression, decision trees, random forests, gradient boosting, and support vector machines are a few examples of machine learning techniques that can be used to detect credit card fraud.
 
-This project aims to develop a machine learning model to detect fraudulent credit card transactions. The model is trained on a dataset containing labeled transactions, where each transaction is classified as either fraudulent or legitimate. There are several machine learning algorithms that can be used for credit card fraud detection, including Logistic Regression, decision trees, random forests, Gradient Boosting and Support Vector Machines.
 
 Dataset:
 
-The Credit Card Fraud Detection dataset from Kaggle is used for this project. It includes credit card transactions made by European cardholders in September 2013. The dataset covers a two-day period and contains 284,807 transactions, of which 492 are fraudulent. The dataset is highly imbalanced, with frauds accounting for only 0.172% of all transactions. The dataset includes anonymized credit card transactions with features such as transaction amount, time, and various transformed features. The features V1, V2, … V28 are principal components obtained through PCA. The only features not transformed by PCA are ‘Time’ and ‘Amount’. The ‘Time’ feature represents the seconds elapsed between each transaction and the first transaction in the dataset. The ‘Amount’ feature represents the transaction amount. The response variable is the ‘Class’ feature, which takes the value 1 for fraud and 0 otherwise.
+This project makes use of the Kaggle Credit Card Fraud Detection dataset. It comprises credit card transactions performed in September 2013 by cardholders across Europe. 284,807 transactions total in the dataset over a two-day span, 492 of which are fake. With only 0.172% of all transactions being fraudulent, the dataset is severely unbalanced. The dataset contains de-identified credit card transactions including information on the amount, date, and other altered attributes. Principal components (PCA) were used to determine the characteristics V1, V2,... V28. The only attributes that PCA does not alter are "Time" and "Amount." The 'Time' feature shows the number of seconds that passed between each transaction and the dataset's initial transaction. The ‘Amount’ feature represents the transaction amount. The response variable is the ‘Class’ feature, which takes the value 1 for fraud and 0 otherwise.
 
 Installation:
 
@@ -19,10 +19,10 @@ The Random Forest model achieved a precision of 90.5882%, recall of 84.6154%, F1
 
 Future Work:
 
-Some potential areas for future improvement and expansion of this project include:
+This project may be enhanced and expanded in the future in the following ways:
 
-Exploring different machine learning algorithms and implementing artifical neural networks techniques for fraud detection. Implementing real-time fraud detection using streaming data. Investigating feature engineering techniques to improve model performance. Deploying the model as an API for real-time predictions.
+investigating various machine learning techniques and applying artificial neural network methods for fraud detection. leveraging streaming data to implement real-time fraud detection. looking into feature engineering methods to enhance model performance. Using the model as a real-time prediction API.
 
 Contributing:
 
-Contributions to this project are welcome. If you find any issues or have suggestions for improvement, please open an issue or submit a pull request.
+This project is open to suggestions. Please raise an issue or submit a pull request if you discover any problems or have ideas for improvement.
